@@ -20,6 +20,9 @@ Place the files under `data/spatialmqa/`.
 We use the `relative_direction` subset under the Person Perspective category.
 Place the files under `data/viewspatial_bench/`.
 
+Note that these benchmarks contain multiple files (e.g., images, annotations). 
+Please download all associated files for each benchmark.
+
 After downloading, organize the files as follows:
 
 ```
@@ -44,7 +47,7 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-# Evaluation
+### Evaluation
 ```bash
 python pcd_qwen25vl.py --model_size 7B 
 ```
